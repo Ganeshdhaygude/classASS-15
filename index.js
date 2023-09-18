@@ -6,7 +6,7 @@ const carName = document.querySelector(".car-name");
 btn.addEventListener("click", async function () {
   try {
     carImg.src = "spinner.svg";
-    const response = await fetch("https://api.unsplash.com/photos/random?client_id=XvPOlp0Ajyt5Uzeh9qcdTR4pPUDq0PrRlwISfb0x5LY&query=car");
+    const response = await fetch("https://api.unsplash.com/photos/random?client_id=9dU-ClQ1rjYh6JC2OdcVzOo_1Ynf440VKrDtkJYTw_M&query=cargit");
     const data = await response.json();
     btn.innerText = "Get Cars";
     carContainer.style.display = "block";
